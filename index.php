@@ -1,7 +1,38 @@
 <?php
 
+$faqs = [
 
+    [
+        "domanda" => "ciao",
+        "risposta" => "ciao",
+    ],
 
+    [
+        "domanda" => "ciao",
+        "risposta" =>"ciao",
+    ],
+
+    [
+        "domanda" => "ciao",
+        "risposta" => "ciao",
+    ],
+
+    [
+        "domanda" => "ciao",
+        "risposta" => "ciao",
+    ],
+
+    [
+        "domanda" => "ciao",
+        "risposta" => "ciao",
+    ],
+
+    [
+        "domanda" => "ciao",
+        "risposta" => "ciao",
+    ],
+
+];
 
 
 ?>
