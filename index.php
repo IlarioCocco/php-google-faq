@@ -80,6 +80,11 @@ $faqsSei = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <!-- font google Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- font google Open Sans -->
     <title>Document</title>
 </head>
 
@@ -186,18 +191,24 @@ $faqsSei = [
     </main>
 
     <footer>
-        <div>
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+        <div class="sectionFooter">
+            <div class="leftList">
+                <ul class="listato">
+                    <li>Google</li>
+                    <li>Tutto su Google</li>
+                    <li>Privacy</li>
+                    <li>Termini</li>
                 </ul>
             </div>
 
-            <div>
-                <input type="text" placeholder="Italiano">
+            <div class="inputRight">
+                <select class="input">
+                    <label>
+                        <option value="Italiano">Italiano</option>
+                        <option value="Inglese">Inglese</option>
+                        <option value="Francese">Francese</option>
+                    </label>
+                </select>
             </div>
         </div>
 
