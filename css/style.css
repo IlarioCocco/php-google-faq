@@ -11,6 +11,9 @@ body{
 
 .boxHeader {
     height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 .logo {
@@ -37,6 +40,7 @@ body{
     color: grey;
     font-size: 10px;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .page {
