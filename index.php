@@ -80,6 +80,9 @@ $faqsSei = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <!-- simboli font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- simboli font-awesome -->
     <!-- font google Open Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -93,8 +96,14 @@ $faqsSei = [
     <header>
         <div class="boxHeader">
             <div class="logo">
-                <img src="./img/googlelogo_clr_74x24px.svg" alt="logo google">
-                <h3 class="privacy">Privacy e termini</h3>
+                <div class="logo">
+                    <img class="logoIcon" src="./img/googlelogo_clr_74x24px.svg" alt="logo google">
+                    <h3 class="privacy">Privacy e termini</h3>
+                </div>
+                <div>
+                    <i class="fas fa-th box"></i>
+                    <i class="far fa-user-circle box"></i>
+                </div>
             </div>
             <div>
                 <ul class="listato">
@@ -104,7 +113,6 @@ $faqsSei = [
                     <li>Tecnologie</li>
                     <li>Domande frequenti.</li>
                 </ul>
-                <hr>
             </div>
         </div>
 

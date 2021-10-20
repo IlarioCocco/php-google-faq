@@ -10,33 +10,43 @@ body{
 }
 
 .boxHeader {
-    height: 80px;
+
     position: fixed;
     width: 100%;
     background-color: white;
+    border-bottom: 1px solid lightgray;
 }
 
 .logo {
-    padding-top: 15px;
-    padding-left: 20px;
+    padding-top: 5px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
-   
+    justify-content: space-between;
 }
 
-.privacy {
-    padding-left: 5px;
-    color: grey;
-    font-size: 15px;
+.logoIcon {
+    width: 60px;
+}
 
+.privacy, .box {
+    padding-left: 3px;
+    padding-bottom: 4px;
+    color: grey;
+    font-size: 17px;
+}
+
+.box {
+    margin-right: 15px;
 }
 
 .listato, li {
     list-style-type: none;
     display: flex;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-right: 30px;
-    margin-left: 5px;
+    margin-left: 10px;
     color: grey;
     font-size: 10px;
     cursor: pointer;
@@ -79,4 +89,5 @@ body{
 .inputRight{
     margin-right: 200px;
 }
+
 
